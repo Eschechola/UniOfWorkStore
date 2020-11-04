@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Store.UoW.Domain\Store.UoW.Domain.csproj" />
+    <ProjectReference Include="..\Store.UoW.Infra\Store.UoW.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
